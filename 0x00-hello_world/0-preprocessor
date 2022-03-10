@@ -1,2 +1,3 @@
 #!/bin/bash
-printf("Holberton School");
+gcc -E main.c > c
+
