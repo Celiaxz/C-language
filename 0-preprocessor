@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+//Main function
+int main()
+{
+    //Print a text message in the console
+    printf("Welcome to LinuxHint.\n");
+    return 0;
+}
