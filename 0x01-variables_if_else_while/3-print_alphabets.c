@@ -6,15 +6,11 @@
 */
 int main(void)
 {
-char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 int x;
-for (x = 0; x < 26; x++)
-{
-putchar(alphabet[x]);
-char capitalAlpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-for (x = 0; x < 26; x++)
-{
-putchar(capitalAlpha[x]);
+for (x = 'a'; x <= 'z'; x++)
+putchar(ch);
+for (x = 'A'; ch <= 'Z'; x++)
+putchar(x);
 putchar('\n');
 return (0);
 }
